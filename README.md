@@ -14,7 +14,7 @@ Contains Unreal Engine project with exported video captured using Unreal's Seque
 
 ### Interactive:
 
-Contains C++/OpenGL interactive application and video captured showing application running.
+Contains C++/OpenGL interactive application and video captured showing the application running.
 
 
 
