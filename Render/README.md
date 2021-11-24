@@ -2,8 +2,6 @@
 
 Having a large interest in Japan and Japanese architecture, the inspiration I chose was an image made by Roman Klco, who in comparison modelled his version on Blender with a slightly different style. I wanted to capture the same building and most of the objects used in the environment using the modelling skills I learned in the course.
 
-![Inspiration](https://cdn.dribbble.com/users/15687/screenshots/16351756/media/e8bd93e2091af81d9fb5aeb634725391.PNG?compress=1&resize=1200x900)
-
 In comparison, here is my version in Maya using Arnold Materials. I wanted the scene to have much warmer lighting and for the objects to be less realistic and more of a low-poly style. This is evident for example, in the leaves I created in the trees, with each individual leaf being more of a blocky style.
 
 ![My version](./Render.jpg "My Render")
