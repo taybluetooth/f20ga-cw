@@ -1,6 +1,4 @@
-﻿  Mesh.cpp
-  OBJLoader.cpp
-  Source.cpp
+﻿  Source.cpp
 C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(388,22): warning C4305: '-=': truncation from 'double' to 'T'
           with
           [
@@ -111,26 +109,25 @@ C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_G
           [
               T=float
           ]
-C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(501,33): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(516,33): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(531,33): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(547,33): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(563,33): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(578,33): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(593,33): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(608,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(503,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(518,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(533,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(549,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(565,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(580,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(595,33): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(610,33): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(617,33): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(628,33): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(631,33): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(636,33): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(645,33): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(649,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(612,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(619,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(630,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(633,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(638,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(648,33): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(652,33): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(658,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(655,33): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(661,33): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(670,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(664,33): warning C4305: 'argument': truncation from 'double' to 'float'
 C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(674,33): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(725,33): warning C4305: 'argument': truncation from 'double' to 'float'
-  Generating Code...
+C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(678,33): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\01_Pipeline_Interaction\Source.cpp(732,33): warning C4305: 'argument': truncation from 'double' to 'float'
   01_Pipeline_Interaction.vcxproj -> C:\Users\callu\Documents\Year4SoftEng\f20ga\Interaction\Code_Project\VS2019_3D_Graphics_and_Animation_Template\x64\Debug\Main_Template.exe

@@ -441,6 +441,7 @@ void render(GLfloat currentTime) {
 		cameraPosition + cameraFront,									// centre
 		cameraUp);														// up
 
+	// Set uniforms
 	glUniform4f(glGetUniformLocation(program, "viewPosition"),
 		cameraPosition.x, cameraPosition.y, cameraPosition.z, 1.0);
 	glUniform4f(glGetUniformLocation(program, "lightPosition"),
@@ -457,12 +458,13 @@ void render(GLfloat currentTime) {
 	glUniform1f(glGetUniformLocation(program, "ks"), 1.0f);
 	glUniform1f(glGetUniformLocation(program, "shininess"), 16.0f);
 
+	// Set active texture to flat white texture
 	GLint whiteLocation = glGetUniformLocation(program, "white");
 	glActiveTexture(GL_TEXTURE0);
 	glBindTexture(GL_TEXTURE_2D, white);
 	glUniform1i(whiteLocation, 0);
 
-
+	// Set position of street
 	glm::mat4 modelMatrix = glm::translate(glm::mat4(1.0f), streetPos);
 	modelMatrix = glm::rotate(modelMatrix, modelRotation.x, glm::vec3(1.0f, 0.0f, 0.0f));
 	modelMatrix = glm::rotate(modelMatrix, modelRotation.y, glm::vec3(0.0f, 1.0f, 0.0f));
@@ -483,7 +485,7 @@ void render(GLfloat currentTime) {
 	glUniform4f(glGetUniformLocation(program, "ia"), ia.r, ia.g, ia.b,
 		1.0);
 
-	// Do some translations, rotations and scaling
+	// Set position of sewer
 	glm::mat4 modelMatrix2 = glm::translate(glm::mat4(1.0f), sewerPos);
 	modelMatrix2 = glm::rotate(modelMatrix2, modelRotation.x, glm::vec3(1.0f, 0.0f, 0.0f));
 	modelMatrix2 = glm::rotate(modelMatrix2, modelRotation.y, glm::vec3(0.0f, 1.0f, 0.0f));
@@ -501,7 +503,7 @@ void render(GLfloat currentTime) {
 	colorObject(0.663, 0.663, 0.663);
 	sewer.Draw();
 
-	// Do some translations, rotations and scaling
+	// Set position of building foundation
 	glm::mat4 modelMatrix3 = glm::translate(glm::mat4(1.0f), buildingFoundationPos);
 	modelMatrix3 = glm::rotate(modelMatrix3, modelRotation.x, glm::vec3(1.0f, 0.0f, 0.0f));
 	modelMatrix3 = glm::rotate(modelMatrix3, modelRotation.y, glm::vec3(0.0f, 1.0f, 0.0f));
@@ -516,7 +518,7 @@ void render(GLfloat currentTime) {
 	colorObject(1.000, 0.937, 0.835);
 	buildingFoundation.Draw();
 	
-	//Do some translations, rotationsand scaling
+	// Set position of external wall
 	glm::mat4 modelMatrix4 = glm::translate(glm::mat4(1.0f), externalWallPosition);
 	modelMatrix4 = glm::rotate(modelMatrix4, modelRotation.x, glm::vec3(1.0f, 0.0f, 0.0f));
 	modelMatrix4 = glm::rotate(modelMatrix4, modelRotation.y, glm::vec3(0.0f, 1.0f, 0.0f));
@@ -532,7 +534,7 @@ void render(GLfloat currentTime) {
 	externalWall.Draw();
 
 
-	//Do some translations, rotationsand scaling
+	// Set position of kerbside
 	glm::mat4 modelMatrix5 = glm::translate(glm::mat4(1.0f), kerbPos);
 	modelMatrix5 = glm::rotate(modelMatrix5, modelRotation.x, glm::vec3(1.0f, 0.0f, 0.0f));
 	modelMatrix5 = glm::rotate(modelMatrix5, modelRotation.y, glm::vec3(0.0f, 1.0f, 0.0f));
@@ -548,7 +550,7 @@ void render(GLfloat currentTime) {
 	kerbSide.Draw();
 
 
-	//Do some translations, rotationsand scaling
+	// Set position of tree's holder
 	glm::mat4 modelMatrix6 = glm::translate(glm::mat4(1.0f), treeHolderPos);
 	modelMatrix6 = glm::rotate(modelMatrix6, modelRotation.x, glm::vec3(1.0f, 0.0f, 0.0f));
 	modelMatrix6 = glm::rotate(modelMatrix6, modelRotation.y, glm::vec3(0.0f, 1.0f, 0.0f));
@@ -563,7 +565,7 @@ void render(GLfloat currentTime) {
 	colorObject(0.961, 0.961, 0.961);
 	treeHolder.Draw();
 
-	//Do some translations, rotationsand scaling
+	// Set position of tree base trunk
 	glm::mat4 modelMatrix7 = glm::translate(glm::mat4(1.0f), treeBasePos);
 	modelMatrix7 = glm::rotate(modelMatrix7, modelRotation.x, glm::vec3(1.0f, 0.0f, 0.0f));
 	modelMatrix7 = glm::rotate(modelMatrix7, modelRotation.y, glm::vec3(0.0f, 1.0f, 0.0f));
@@ -578,7 +580,7 @@ void render(GLfloat currentTime) {
 	colorObject(0.545, 0.271, 0.075);
 	treeBase.Draw();
 
-	//Do some translations, rotationsand scaling
+	// Set position of leaves
 	glm::mat4 modelMatrix8 = glm::translate(glm::mat4(1.0f), leavesPos);
 	modelMatrix8 = glm::rotate(modelMatrix8, modelRotation.x, glm::vec3(1.0f, 0.0f, 0.0f));
 	modelMatrix8 = glm::rotate(modelMatrix8, modelRotation.y, glm::vec3(0.0f, 1.0f, 0.0f));
@@ -593,7 +595,7 @@ void render(GLfloat currentTime) {
 	colorObject(0.933, 0.510, 0.933);
 	leaves.Draw();
 
-	//Do some translations, rotationsand scaling
+	// Set position of rest of diorama not being manipulated
 	glm::mat4 modelMatrix9 = glm::translate(glm::mat4(1.0f), modelPosition);
 	modelMatrix9 = glm::rotate(modelMatrix9, modelRotation.x, glm::vec3(1.0f, 0.0f, 0.0f));
 	modelMatrix9 = glm::rotate(modelMatrix9, modelRotation.y, glm::vec3(0.0f, 1.0f, 0.0f));
@@ -637,6 +639,7 @@ void render(GLfloat currentTime) {
 	windowSill.Draw();
 	doorMat.Draw();
 
+	// Set active texture to be wood texture
 	GLint woodLocation = glGetUniformLocation(program, "wood");
 	glActiveTexture(GL_TEXTURE0);
 	glBindTexture(GL_TEXTURE_2D, wood);
@@ -661,6 +664,7 @@ void render(GLfloat currentTime) {
 	colorObject(1.000, 0.871, 0.678);
 	barCounter.Draw();
 
+	// Set active texture to be metal texture
 	GLint metallicLocation = glGetUniformLocation(program, "metallic");
 	glActiveTexture(GL_TEXTURE0);
 	glBindTexture(GL_TEXTURE_2D, metallic);
@@ -678,6 +682,7 @@ void render(GLfloat currentTime) {
 	glBindTexture(GL_TEXTURE_2D, white);
 	glUniform1i(whiteLocation, 0);
 
+	// Set position of lamp post
 	glm::mat4 modelMatrix10 = glm::translate(glm::mat4(1.0), lampPostPos);
 	modelMatrix10 = glm::rotate(modelMatrix10, modelRotation.x, glm::vec3(1.0f, 0.0f, 0.0f));
 	modelMatrix10 = glm::rotate(modelMatrix10, modelRotation.y, glm::vec3(0.0f, 1.0f, 0.0f));
@@ -691,7 +696,7 @@ void render(GLfloat currentTime) {
 	colorObject(0.000, 0.000, 0.000);
 	lampPost.Draw();
 
-	// Do some translations, rotations and scaling
+	// Set position of advert
 	glm::mat4 modelMatrix11 = glm::translate(glm::mat4(1.0), advertPos);
 	modelMatrix11 = glm::rotate(modelMatrix11, modelRotation.x, glm::vec3(1.0f, 0.0f, 0.0f));
 	modelMatrix11 = glm::rotate(modelMatrix11, modelRotation.y, glm::vec3(0.0f, 1.0f, 0.0f));
@@ -707,6 +712,7 @@ void render(GLfloat currentTime) {
 	glUniform4f(glGetUniformLocation(program, "ia"), 1.0f, 1.0f, 1.0f, 1.0f);
 	largeAdvert.Draw();
 
+	// Set position of seating
 	glm::mat4 modelMatrix12 = glm::translate(glm::mat4(1.0), seatPos);
 	modelMatrix12 = glm::rotate(modelMatrix12, modelRotation.x, glm::vec3(1.0f, 0.0f, 0.0f));
 	modelMatrix12 = glm::rotate(modelMatrix12, modelRotation.y, glm::vec3(0.0f, 1.0f, 0.0f));
@@ -717,6 +723,7 @@ void render(GLfloat currentTime) {
 	glUniformMatrix4fv(glGetUniformLocation(program, "view_matrix"), 1, GL_FALSE, &viewMatrix[0][0]);
 	glUniformMatrix4fv(glGetUniformLocation(program, "proj_matrix"), 1, GL_FALSE, &proj_matrix[0][0]);
 
+	// Set active texture to be metallic
 	glActiveTexture(GL_TEXTURE0);
 	glBindTexture(GL_TEXTURE_2D, metallic);
 	glUniform1i(metallicLocation, 0);
