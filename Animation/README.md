@@ -1,6 +1,6 @@
 # **Animation**
 
-![UE Screenshot](../Appendices/ueScreenshot.png)
+![UE Screenshot](../Appendices/ueScreenshot.PNG)
 
 # **Animation Process** -
 
