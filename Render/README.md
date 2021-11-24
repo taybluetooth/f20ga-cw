@@ -36,6 +36,9 @@ Overall the scene took over 2 weeks to model, with there being a lot of individu
 - Holes were deepened to add depth.
 
 ## **5. Lamp Post** -
+
+![Lamp Post](../Appendices/lampPost.png)
+
 - Used 3 polygon shapes, 2 cubes and a cylinder.
 - Cylinder was modelled into a bell shape by elongating the y-axis and flattening the bottom by adding a bevel.
 - 1st cube acted as the pole which was lengthened on the y-axis.
@@ -44,7 +47,9 @@ Overall the scene took over 2 weeks to model, with there being a lot of individu
 
 ## **6. Tree** -
 
-Tree consists of several parts, the tree holder, the soil, the tree trunk, tree branches and leaves.
+![Tree](../Appendices/tree.png)
+
+- Tree consists of several parts, the tree holder, the soil, the tree trunk, tree branches and leaves.
 
 ### **6.1. Tree Holder** -
 
@@ -72,6 +77,8 @@ Tree consists of several parts, the tree holder, the soil, the tree trunk, tree 
 
 ### **7. Seating** -
 
+![Seating](../Appendices/seating.png)
+
 - 3 polygon cylinders were used acting as the base, stand and seat. The base and seat were widened and scaled, with the base being similar to the lamp post acting as a bell shape. The stand was then extended on the y-axis but shrunk on the x and z axes.
 - These shapes were then combined into a mesh union.
 
@@ -90,6 +97,8 @@ Tree consists of several parts, the tree holder, the soil, the tree trunk, tree 
 - The tiles were placed mathematically by special duplicating them by offsetting their x-axis positioning to give the effect of being placed into rows.
 
 ## **10. Stairs** -
+
+![Stairs](../Appendices/stairs.png)
 
 - Steps were made using polygon cubes that were flattened. These steps were then special duplicated mathematically by calculating the offset on all axes, ensuring they were evenly spaced. 
 - The railings were made using polygon cylinders that were also special duplicated using the same calculations used for the steps.
@@ -112,7 +121,9 @@ Tree consists of several parts, the tree holder, the soil, the tree trunk, tree 
 - Fan was made by combining several flat polygon cylinders together and combining them in the centre of the fan.
 - A hole was made in the box and the fan was then inserted and combined together in a mesh union.
 
-## **14. Door, Windows and Balcony Fence** -
+## **14. Door, Windows and Balcony** -
+
+![Windows](../Appendices/window.png)
 
 - All made using polygon cubes.
 
