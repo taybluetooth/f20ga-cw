@@ -2,7 +2,7 @@
 
 Having a large interest in Japan and Japanese architecture, the inspiration I chose was an image made by Roman Klco, who in comparison modelled his version on Blender with a slightly different style. I wanted to capture the same building and most of the objects used in the environment using the modelling skills I learned in the course.
 
-![Inspiration](https://cdn.dribbble.com/users/15687/screenshots/16351756/media/e8bd93e2091af81d9fb5aeb634725391.png?compress=1&resize=1200x900)
+![Inspiration](https://cdn.dribbble.com/users/15687/screenshots/16351756/media/e8bd93e2091af81d9fb5aeb634725391.PNG?compress=1&resize=1200x900)
 
 In comparison, here is my version in Maya using Arnold Materials. I wanted the scene to have much warmer lighting and for the objects to be less realistic and more of a low-poly style. This is evident for example, in the leaves I created in the trees, with each individual leaf being more of a blocky style.
 
@@ -37,7 +37,7 @@ Overall the scene took over 2 weeks to model, with there being a lot of individu
 
 ## **5. Lamp Post** -
 
-![Lamp Post](../Appendices/lampPost.png)
+![Lamp Post](../Appendices/lampPost.PNG)
 
 - Used 3 polygon shapes, 2 cubes and a cylinder.
 - Cylinder was modelled into a bell shape by elongating the y-axis and flattening the bottom by adding a bevel.
@@ -47,7 +47,7 @@ Overall the scene took over 2 weeks to model, with there being a lot of individu
 
 ## **6. Tree** -
 
-![Tree](../Appendices/tree.png)
+![Tree](../Appendices/tree.PNG)
 
 - Tree consists of several parts, the tree holder, the soil, the tree trunk, tree branches and leaves.
 
@@ -77,7 +77,7 @@ Overall the scene took over 2 weeks to model, with there being a lot of individu
 
 ### **7. Seating** -
 
-![Seating](../Appendices/seating.png)
+![Seating](../Appendices/seating.PNG)
 
 - 3 polygon cylinders were used acting as the base, stand and seat. The base and seat were widened and scaled, with the base being similar to the lamp post acting as a bell shape. The stand was then extended on the y-axis but shrunk on the x and z axes.
 - These shapes were then combined into a mesh union.
@@ -98,7 +98,7 @@ Overall the scene took over 2 weeks to model, with there being a lot of individu
 
 ## **10. Stairs** -
 
-![Stairs](../Appendices/stairs.png)
+![Stairs](../Appendices/stairs.PNG)
 
 - Steps were made using polygon cubes that were flattened. These steps were then special duplicated mathematically by calculating the offset on all axes, ensuring they were evenly spaced. 
 - The railings were made using polygon cylinders that were also special duplicated using the same calculations used for the steps.
@@ -123,7 +123,7 @@ Overall the scene took over 2 weeks to model, with there being a lot of individu
 
 ## **14. Door, Windows and Balcony** -
 
-![Windows](../Appendices/window.png)
+![Windows](../Appendices/window.PNG)
 
 - All made using polygon cubes.
 
